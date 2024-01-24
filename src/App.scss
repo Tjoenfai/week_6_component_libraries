@@ -1,0 +1,17 @@
+$card-border-width: 0;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-cards {
+  margin-top: -50px;
+
+  .btn {
+    width: 100%;
+  }
+}
